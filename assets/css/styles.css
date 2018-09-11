@@ -1,5 +1,17 @@
 body {
     background:#8095BF;
     font-size:30px;
-    color: white
+    color: white;
+}
+
+img {
+    width: 200px;
+}
+
+.header {
+    background: royalblue
+}
+
+.content {
+    background: pink
 }
