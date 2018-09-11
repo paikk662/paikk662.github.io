@@ -4,8 +4,12 @@ body {
     color: white;
 }
 
-img {
+.small {
     width: 200px;
+}
+
+.medium {
+    width: 400px;
 }
 
 .header {
