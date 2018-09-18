@@ -1,0 +1,21 @@
+body {
+    background:#8095BF;
+    font-size:30px;
+    color: white;
+}
+
+.small {
+    width: 200px;
+}
+
+.medium {
+    width: 400px;
+}
+
+.header {
+    background: royalblue
+}
+
+.content {
+    background: pink
+}
