@@ -1,0 +1,23 @@
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color: black;
+}
+
+a {
+    color: #708090;
+}
+
+.small {
+    width: 200px;
+}
+
+.medium {
+    width: 400px;
+}
+
+.content {
+    background: #F0F8FF;
+    font-size: 20px;
+}

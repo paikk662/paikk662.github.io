@@ -1,7 +1,12 @@
 body {
-    background:#8095BF;
-    font-size:30px;
-    color: white;
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color: black;
+}
+
+a {
+    color: #708090;
 }
 
 .small {
@@ -12,10 +17,7 @@ body {
     width: 400px;
 }
 
-.header {
-    background: royalblue
-}
-
 .content {
-    background: pink
+    background: #F0F8FF;
+    font-size: 20px;
 }
