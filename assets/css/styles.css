@@ -1,7 +1,26 @@
 body {
     background: white;
-    font-size:30px;
-    color: midnightblue;
+    font-family: 'Raleway', sans-serif;
+    font-size:45px;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #708090;
+}
+
+footer { 
+    position: fixed; bottom: 0; 
+}
+
+.section {
+    font-size: 12px;
 }
 
 .small {
@@ -13,5 +32,6 @@ body {
 }
 
 .content {
-    background: pink
+    background: #F0F8FF;
+    font-size: 20px;
 }
