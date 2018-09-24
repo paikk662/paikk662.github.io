@@ -9,15 +9,35 @@ a {
     color: #708090;
 }
 
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
+}
+
+.content {
+    -webkit-animation: fadeinout 7s linear forwards;
+    animation: fadeinout 7s linear forwards;
+    animation-iteration-count: infinite
+}
+
+    @-webkit-keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes fadeinout {
+     0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
 .small {
     width: 200px;
 }
 
 .medium {
     width: 400px;
-}
-
-.content {
-    background: #F0F8FF;
-    font-size: 20px;
 }
