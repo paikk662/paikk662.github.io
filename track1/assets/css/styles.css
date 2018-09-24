@@ -19,8 +19,8 @@ footer {
 }
 
 .content {
-    -webkit-animation: fadeinout 7s linear forwards;
-    animation: fadeinout 7s linear forwards;
+    -webkit-animation: fadeinout 4s linear forwards;
+    animation: fadeinout 4s linear forwards;
     animation-iteration-count: infinite
 }
 
@@ -32,12 +32,4 @@ footer {
     @keyframes fadeinout {
      0%,100% { opacity: 0; }
     50% { opacity: 1; }
-}
-
-.small {
-    width: 200px;
-}
-
-.medium {
-    width: 400px;
 }

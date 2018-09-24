@@ -9,6 +9,15 @@ a {
     color: #708090;
 }
 
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
+}
+
 .small {
     width: 200px;
 }
