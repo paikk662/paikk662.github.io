@@ -1,7 +1,7 @@
 body {
-    background: white;
+    background:#8095BF;
     font-size:30px;
-    color: midnightblue;
+    color: white;
 }
 
 .small {
@@ -10,6 +10,10 @@ body {
 
 .medium {
     width: 400px;
+}
+
+.header {
+    background: royalblue
 }
 
 .content {
