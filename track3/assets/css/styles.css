@@ -1,7 +1,7 @@
 body {
     background: white;
     font-family: 'Raleway', sans-serif;
-    font-size:20px;
+    font-size:15px;
     color: black;
 }
 
@@ -27,6 +27,5 @@ footer {
 }
 
 .content {
-    background: #F0F8FF;
-    font-size: 20px;
+    text-indent: 300pt;
 }
