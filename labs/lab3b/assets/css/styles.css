@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 body {
-    background:white
-    margin: 0;
+    background:white;
+    margin: auto;
 }
 
 .border {
