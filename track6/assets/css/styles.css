@@ -1,12 +1,17 @@
 body {
     background: white;
     font-family: 'Raleway', sans-serif;
-    font-size:20px;
+    font-size:15px;
     color: black;
 }
 
-a {
-    color: #708090;
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
 }
 
 .small {
@@ -20,4 +25,9 @@ a {
 .content {
     background: #F0F8FF;
     font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
