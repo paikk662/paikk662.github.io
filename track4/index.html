@@ -11,34 +11,97 @@
     <link href="assets/css/styles.css" media="all" rel="stylesheet" />
     <link rel="stylesheet"
        href="https://fonts.googleapis.com/css?family=Raleway|Cedarville+Cursive">
+  
+       <style>
+          canvas {
+            border: black 20px solid;
+          }
+       
+          body {
+            position: fixed;
+            margin: 0;
+            padding: 0;
+          }
+        </style>
 
-  </head>
+      </head>
+
+  <head>
+     <style type="text/css">
+       body{
+         animation: change 1s;
+         animation-fill-mode: both;
+         animation-iteration-count: infinite;
+       }
+           @keyframes change{
+             0%{background-color: black}
+             25%{background-color: red;}
+             50%{background-color: darkred;}
+             75%{background-color: red}
+             100%{background-color: black}
+           }
+     </style>
+   </head>
 
   <body>
 
-    <div class="header" ALIGN=CENTER>
-      <div style="font-family: 'Cedarville Cursive', serif;">sleep</div>
-    </div>
+      <div class=esc>
+          <p>
+              <a href="../track4a/index.html">i have to wake up</a>
+          </p>
+        </div>
 
-    <div ALIGN=CENTER>
-      <p>
-        <p>&emsp; <p>&emsp; <p>&emsp; <p>&emsp; <p>&emsp;
-          <a href="../track5/index.html">next</a>
-        </p> </p> </p> </p>
-      </p>
-    </div>
+      <canvas id="canvas"></canvas>
+ 
+      <script>
+  
+       var canvasPos = getPosition(canvas);
+       var context = canvas.getContext ("2d");
+
+       canvas.width = window.innerWidth;
+       canvas.height = window.innerHeight;
+
+        function update() {
+          context.beginPath();
+          context.arc(mouseX, mouseY, 50, 0, 2 * Math.PI, true);
+          context.fillStyle = "#010101";
+          context.fill();
+
+        requestAnimationFrame(update);
+
+        }
+
+        update();
+
+            var mouseX = 0;
+            var mouseY = 0;
+
+            canvas.addEventListener("mousemove", setMousePosition, false);
+
+            function setMousePosition(e) {
+              mouseX = e.clientX - canvasPos.x;
+              mouseY = e.clientY - canvasPos.y;
+            }  
+
+        function getPosition(el) {
+          var xPosition = 0;
+          var yPosition = 0;
+        
+          while (el) {
+            xPosition += (el.offsetLeft - el.scrollLeft + el.clientLeft);
+            yPosition += (el.offsetTop - el.scrollTop + el.clientTop);
+            el = el.offsetParent;
+          }
+          return {
+            x: xPosition,
+            y: yPosition
+          };
+        }       
+         
+      </script>
 
   </body>
 
-  <footer>
-  
-      <div>
-        <p>
-          <a href="../index.html">go home</a>
           <script src="assets/js/app.js"></script>
-        </p>
-      </div>
-  
-    </footer>
 
 </html>

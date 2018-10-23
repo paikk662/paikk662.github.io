@@ -33,3 +33,7 @@ footer {
      0%,100% { opacity: 0; }
     50% { opacity: 1; }
 }
+
+#grad {
+    background-image: linear-gradient(white, black);
+}
