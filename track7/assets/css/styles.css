@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 0;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Raleway', sans-serif;
 }
 
 html, body, .wrapper {
@@ -12,6 +12,7 @@ html, body, .wrapper {
 }
 
 .column {
+    background: url('../img/stat.gif');
     width: 50%;
     height: 100%;
     display: inline-block;
@@ -39,16 +40,11 @@ ul, li {
     cursor: pointer;
 }
 
-.green { background: greenyellow; }
-.red { background: red; }
-.blue { background: blue; }
-.sol-lewitt { background: url('../img/sol-lewitt.gif'); }
-
 .about {
     background: lavenderblush;
 }
 
-.slay {
+.waking {
     position: fixed;
     top: 0;
     left: 0;
@@ -56,8 +52,8 @@ ul, li {
     height: 100%;
     background: black;
     color: white;
-    font-size: 200px;
-    font-family: 'Times New Roman', Times, serif
+    font-size: 150px;
+    font-family: 'Raleway' sans-serif;
 }
 
 .message {
@@ -68,11 +64,12 @@ ul, li {
 }
 
 .close {
-    font-size: 80px;
+    font-size: 40px;
     position: absolute;
     top: 20px;
     right: 40px;
     cursor: pointer;
+    color: red;
 }
 
 .hide {
@@ -80,6 +77,6 @@ ul, li {
 }
 
 .content {
-    background: #f1f1f1;
+    background: url('../img/stat.gif');
     font-size: 20px;
 }
