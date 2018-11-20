@@ -29,7 +29,9 @@ ul, li {
 .nav-item {
     border: 1px solid black;
     padding: 10px 20px;
-    display: inline-block;
+    position: fixed;
+    top: 350px;
+    left: 560px;
     margin: 0 15px 15px 0;
     font-size: 20px;
 }
