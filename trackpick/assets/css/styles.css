@@ -1,0 +1,57 @@
+body {
+    background: black;
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
+}
+
+.content {
+    position: relative;
+    top: 225px;
+    font-size: 45px;
+}
+
+#grad {
+    background-image: linear-gradient(white, black);
+}
+
+.bad {
+    position: fixed;
+    top: 225px;
+    right: 500px;
+}
+
+.good {
+    position: fixed;
+    top: 225px;
+    left: 500px;
+}
+
+.wake {
+    position: fixed;
+    top: 0;
+    left: 25px;
+    font-size: 20px;
+}

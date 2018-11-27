@@ -5,8 +5,17 @@ body {
     color: black;
 }
 
-a {
+a:link {
     text-decoration: none;
+    color: #708090;
+}
+
+a:visited {
+    color: #708090;
+}
+
+a:hover {
+    color: white;
 }
 
 footer { 
@@ -28,4 +37,18 @@ footer {
 
 .content {
     text-indent: 300pt;
+}
+
+.sleep {
+    position: fixed;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+}
+
+.wake {
+    position: fixed;
+    top: 0;
+    left: 25px;
+    font-size: 20px;
 }

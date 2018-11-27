@@ -46,3 +46,15 @@ footer {
 #grad {
     background-image: linear-gradient(white, black);
 }
+
+.sleep {
+    position: fixed;
+    top: 0;
+    right: 25px;
+}
+
+.wake {
+    position: fixed;
+    top: 0;
+    left: 25px;
+}
