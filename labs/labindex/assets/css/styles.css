@@ -9,6 +9,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 a:link {
@@ -43,6 +44,7 @@ footer {
     top: 50%;
     right: 45%
 }
+
 
 .content {
     font-size: 20px;
