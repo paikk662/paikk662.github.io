@@ -53,14 +53,14 @@ footer {
 }
 
 .sleep {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 44%;
     right: 25px;
 }
 
 .wake {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 42%;
     left: 25px;

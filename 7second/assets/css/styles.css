@@ -76,7 +76,7 @@ ul, li {
 }
 
 .close {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 47%;
     right: 25px;
@@ -84,7 +84,7 @@ ul, li {
 }
 
 .wake {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 48%;
     left: 25px;

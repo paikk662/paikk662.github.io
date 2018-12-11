@@ -28,7 +28,7 @@ a:hover {
 }
 
 .sleep {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 44%;
     right: 50px;
@@ -36,7 +36,7 @@ a:hover {
 }
 
 .wake {
-    position: absolute;
+    position: fixed;
     margin: auto;
     top: 42%;
     left: 25px;
