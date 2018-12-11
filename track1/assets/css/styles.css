@@ -1,7 +1,7 @@
 body {
     background: white;
     font-family: 'Raleway', sans-serif;
-    font-size:20px;
+    font-size: 45px;
     color: black;
 }
 
@@ -28,6 +28,10 @@ footer {
 }
 
 .content {
+    position: absolute;
+    top: 45%;
+    left: 490px;
+
     -webkit-animation: fadeinout 4s linear forwards;
     animation: fadeinout 4s linear forwards;
     animation-iteration-count: infinite
@@ -41,6 +45,7 @@ footer {
     @keyframes fadeinout {
      0%,100% { opacity: 0; }
     50% { opacity: 1; }
+    
 }
 
 #grad {
@@ -48,13 +53,15 @@ footer {
 }
 
 .sleep {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 44%;
     right: 25px;
 }
 
 .wake {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 42%;
     left: 25px;
 }

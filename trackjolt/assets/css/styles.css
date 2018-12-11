@@ -28,8 +28,9 @@ footer {
 }
 
 .content {
-    position: relative;
-    top: 225px;
+    position: absolute;
+    top: 43%;
+    left: 550px;
     font-size: 27px;
 
     -webkit-animation: fadeinout 3s linear forwards;
@@ -53,13 +54,15 @@ footer {
 }
 
 .sleep {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 44%;
     right: 25px;
 }
 
 .wake {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 42%;
     left: 25px;
 }

@@ -12,8 +12,9 @@ html, body, .wrapper {
 }
 
 .column {
-    background: url('../img/stat.gif');
-    width: 50%;
+    background: url('../img/pulse.gif');
+    background-size: cover;
+    width: 100%;
     height: 100%;
     display: inline-block;
     padding: 30px;
@@ -40,10 +41,6 @@ ul, li {
     background: black;
     color: white;
     cursor: pointer;
-}
-
-.about {
-    background: lavenderblush;
 }
 
 .waking {
@@ -78,7 +75,18 @@ ul, li {
     display: none;
 }
 
-.content {
-    background: url('../img/stat.gif');
+.close {
+    position: absolute;
+    margin: auto;
+    top: 47%;
+    right: 25px;
+    font-size: 20px;
+}
+
+.wake {
+    position: absolute;
+    margin: auto;
+    top: 48%;
+    left: 25px;
     font-size: 20px;
 }

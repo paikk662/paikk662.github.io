@@ -39,23 +39,27 @@ footer {
    }
 
 .sleep {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 44%;
     right: 25px;
 }
 
 .wake {
-    position: fixed;
-    top: 0;
+    position: absolute;
+    margin: auto;
+    top: 42%;
     left: 25px;
 }
 
+.drimg {
+    position: absolute;
+    padding: 0;
+    margin: 0 auto;
+}
 
-html, body { height: 100%; margin:0; }
+html, body { height: 100%; margin:0; padding: 0;}
 
-.background {
-    background: url('../img/boat.gif') no-repeat center center;
-    background-size:cover;
-    width: 100%;
-    height: 100%;
+.info {
+    position: relative;
 }

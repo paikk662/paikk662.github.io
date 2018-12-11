@@ -21,23 +21,32 @@
 
         <div class="column nav">
           <ul>
-            <li class="nav-item" data-button="beyonce">BREAK REM</li>
+            <!-- <li class="nav-item" data-button="breakrem">BREAK REM</li> -->
           </ul>
         </div>
 
-        <div class="column content">
-          <div class="about-text hide">
-              rapid eye movement
-          </div>
-        </div>
 
         <div class="waking hide">
-          <div class="close">SNOOZE</div>
+
+            <iframe src="../track7/assets/sound/alarmr.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+            </iframe> 
+
+          <div style="visibility:hidden">
+              <audio class="hide" autoplay loop id="playAudio">
+                  <source src="../track7/assets/sound/alarmr.mp3" type="audio/mp3">
+                </audio>
+          </div>
+          <div class="close">
+            <a href="../track7/index.html"><img src="../assets/img/closewhite.png" style="width:35px;height:12.72px;"></a>
+          </div>
+          <div class="wake">
+              <a href="../track1/index.html"><img src="../assets/img/openwhite.png" style="width:35px;height:21.04px;"></a>
+            </div>
           <div class="message">WAKING...</div>
-          <audio class="hide" controls loop>
-            <source src="assets/sound/alarm.mp3"/>
-          </audio>
+
+
         </div>
+
 
     </div>
 

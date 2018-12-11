@@ -1,0 +1,75 @@
+body {
+    background: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #708090;
+}
+
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
+}
+
+.content {
+    position: absolute;
+    width: 310px;
+    height: 53px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    -webkit-animation: fadeinout 2.5s linear forwards;
+    animation: fadeinout 2.5s linear forwards;
+    animation-iteration-count: infinite
+}
+
+    @-webkit-keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes fadeinout {
+     0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+    
+}
+
+.content:hover, .active {
+    background: black;
+    color: white;
+    cursor: pointer:
+}
+
+#grad {
+    background-image: linear-gradient(white, black);
+}
+
+.sleep {
+    position: fixed;
+    top: 0;
+    right: 25px;
+}
+
+.wake {
+    position: fixed;
+    top: 0;
+    left: 25px;
+}

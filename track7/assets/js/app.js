@@ -7,7 +7,7 @@ $('.nav-item').click(function() {
    $(this).addClass('active');
    $('.content').addClass(button_name);
    
-if (button_name == 'beyonce') {
+if (button_name == 'breakrem') {
     $('.waking').removeClass('hide');
     $('audio')[0].play();
 } else if (button_name == 'about') {
@@ -16,9 +16,20 @@ if (button_name == 'beyonce') {
 
 });
 
-
 $('.close').click(function() {
     $('.waking').addClass('hide');
     $('audio')[0].pause();
     $('.nav-item').removeClass('active');
 });
+
+setTimeout(function(){
+    $('.waking').removeClass('hide');
+}, 3000);
+
+var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+if(!isChrome){
+  $('#iframeAudio').remove()
+}
+else{
+ $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+}
