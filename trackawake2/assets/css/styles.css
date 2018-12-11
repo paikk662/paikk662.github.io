@@ -28,8 +28,9 @@ footer {
 }
 
 .content {
-    position: relative;
-    top: 225px;
+    position: absolute;
+    top: 38%;
+    left: 440px;
     font-size: 45px;
 
     -webkit-animation: fadeinout 1s linear forwards;

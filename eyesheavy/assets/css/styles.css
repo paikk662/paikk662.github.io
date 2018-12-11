@@ -1,0 +1,68 @@
+body {
+    background: lightgray;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #708090;
+}
+
+footer { 
+    position: fixed; bottom: 0; 
+    font-size: 20px;
+}
+
+.header {
+    font-size:45px;
+}
+
+.content {
+    position: absolute;
+    top: 38%;
+    left: 500px;
+    font-size: 45px;
+
+    -webkit-animation: fadeinout 3s linear forwards;
+    animation: fadeinout 3s linear forwards;
+    animation-iteration-count: infinite
+}
+
+    @-webkit-keyframes fadeinout {
+      0%,100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    @keyframes fadeinout {
+     0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+
+}
+
+#grad {
+    background-image: linear-gradient(white, black);
+}
+
+.sleep {
+    position: absolute;
+    margin: auto;
+    top: 44%;
+    right: 25px;
+}
+
+.wake {
+    position: absolute;
+    margin: auto;
+    top: 42%;
+    left: 25px;
+}
