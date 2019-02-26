@@ -1,49 +1,50 @@
 body {
-    background: white;
-    font-family: 'Raleway', sans-serif;
+    background: #fcfcfc;
+    font-family: 'Libre Franklin', sans-serif;
     font-size:30px;
-    color: black;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    color: #1c1c1e;
 }
 
 a:link {
     text-decoration: none;
-    color: black;
+    color: #1c1c1e;
 }
 
 a:visited {
-    color: black;
+    color: #1c1c1e;
 }
 
 a:hover {
-    color: #708090;
+    color: #91c6f7;
 }
 
-footer { 
-    position: absolute; bottom: 0; 
-    left: 20px;
+.name {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 75px;
+    margin: 50px;
+    padding: 5px;
 }
 
-
-.section1 {
-    position: absolute;
-    margin: auto;
-    top: 40%;
-    right: 45%
+#mono {
+    width: 95px;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 25px;
 }
 
-.section2 {
-    position: absolute;
-    margin: auto;
-    top: 50%;
-    right: 45%
-}
-
-.content {
-    font-size: 20px;
+.nav {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    right: 5px;
+    margin: 50px;
+    padding: 5px;
 }
